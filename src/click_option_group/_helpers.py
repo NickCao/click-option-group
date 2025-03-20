@@ -2,7 +2,7 @@ import random
 import string
 from typing import Callable, List, NoReturn, Tuple, TypeVar
 
-import click
+import asyncclick as click
 
 F = TypeVar("F", bound=Callable)
 

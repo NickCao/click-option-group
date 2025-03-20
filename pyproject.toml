@@ -33,7 +33,7 @@ classifiers = [
 dynamic = ["version"]
 
 dependencies = [
-    'Click>=7.0',
+    "asyncclick>=8.1.7.2",
 ]
 
 [project.optional-dependencies]

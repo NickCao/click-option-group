@@ -14,8 +14,8 @@ from typing import (
     Union,
 )
 
-import click
-from click.core import augment_usage_errors
+import asyncclick as click
+from asyncclick.core import augment_usage_errors
 
 from ._helpers import (
     get_callback_and_params,
